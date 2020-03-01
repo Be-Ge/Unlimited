@@ -1,0 +1,346 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-BoldItalic.eot');
+	src: local('Gotham Pro Bold Italic'), local('GothamPro-BoldItalic'),
+		url('GothamPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('GothamPro-BoldItalic.woff') format('woff'),
+		url('GothamPro-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-Italic.eot');
+	src: local('Gotham Pro Italic'), local('GothamPro-Italic'),
+		url('GothamPro-Italic.eot?#iefix') format('embedded-opentype'),
+		url('GothamPro-Italic.woff') format('woff'),
+		url('GothamPro-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-Medium.eot');
+	src: local('Gotham Pro Medium'), local('GothamPro-Medium'),
+		url('GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+		url('GothamPro-Medium.woff') format('woff'),
+		url('GothamPro-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-BlackItalic.eot');
+	src: local('Gotham Pro Black Italic'), local('GothamPro-BlackItalic'),
+		url('GothamPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('GothamPro-BlackItalic.woff') format('woff'),
+		url('GothamPro-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-Bold.eot');
+	src: local('Gotham Pro Bold'), local('GothamPro-Bold'),
+		url('GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('GothamPro-Bold.woff') format('woff'),
+		url('GothamPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Narrow';
+	src: url('GothamProNarrow-Bold.eot');
+	src: local('Gotham Pro Narrow Bold'), local('GothamProNarrow-Bold'),
+		url('GothamProNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+		url('GothamProNarrow-Bold.woff') format('woff'),
+		url('GothamProNarrow-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Narrow';
+	src: url('GothamProNarrow-Medium.eot');
+	src: local('Gotham Pro Narrow Medium'), local('GothamProNarrow-Medium'),
+		url('GothamProNarrow-Medium.eot?#iefix') format('embedded-opentype'),
+		url('GothamProNarrow-Medium.woff') format('woff'),
+		url('GothamProNarrow-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-LightItalic.eot');
+	src: local('Gotham Pro Light Italic'), local('GothamPro-LightItalic'),
+		url('GothamPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('GothamPro-LightItalic.woff') format('woff'),
+		url('GothamPro-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-Light.eot');
+	src: local('Gotham Pro Light'), local('GothamPro-Light'),
+		url('GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('GothamPro-Light.woff') format('woff'),
+		url('GothamPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-Black.eot');
+	src: local('Gotham Pro Black'), local('GothamPro-Black'),
+		url('GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+		url('GothamPro-Black.woff') format('woff'),
+		url('GothamPro-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro.eot');
+	src: local('Gotham Pro'), local('GothamPro'),
+		url('GothamPro.eot?#iefix') format('embedded-opentype'),
+		url('GothamPro.woff') format('woff'),
+		url('GothamPro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('GothamPro-MediumItalic.eot');
+	src: local('Gotham Pro Medium Italic'), local('GothamPro-MediumItalic'),
+		url('GothamPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('GothamPro-MediumItalic.woff') format('woff'),
+		url('GothamPro-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+
+body {
+	font-family: 'Gotham Pro', sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: auto;
+	margin-left: auto; 
+}
+
+.header {
+	background-color: #303f9f;
+}
+
+.header__bg {
+	position: relative;
+	background-image: url(../img/bg.png);
+	width: 190rem;
+	height: 110rem;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.sputnik {
+	position: absolute;
+	top: 10rem;
+	left: 5rem;
+}
+
+.planet {
+	position: absolute;
+	right: 5rem;
+	top: 30rem;
+}
+
+.person {
+	position: absolute;
+	bottom: 1rem;
+	left: 20rem;
+}
+
+.header__box-title {
+	color: white;
+	text-align: center;
+	width: 80rem;
+	margin: 0 auto;
+	padding: 6rem;
+	
+}
+
+.header__title {
+	font-size: 6rem;
+	z-index: 1;
+	margin-bottom: 0;
+}
+
+.header__paragraph {
+	font-size: 1.8rem;
+	margin-top: 0%;
+}
+
+.header__btn-box {
+	width: 50rem;
+	position: absolute;
+	top: 40%;
+	right: 10rem;
+}
+
+.header__btn-title {
+	color: #b6f1ff;
+	font-size: 4rem;
+}
+
+.header__btn-box a {
+	padding: 2rem;
+	background-color: #ff1744;
+	border-radius: 5px;
+	border-bottom: 5px solid;
+	border-color:  #d50000;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.header__paragraph {
+	font-size: 3rem;
+	color: white;
+}
+
+/* h2 {
+	text-align: center;
+	font-size: 48px;
+	margin-bottom: 70px;
+} */
+
+.reason {
+	width: 278px;
+	margin: 0 auto;
+	color: #333;
+	display: inline-block;
+	text-align: center;	
+	padding: 30px 15px;
+}
+
+.reason__title {
+	font-size: 4.8rem;
+	text-align: center;
+}
+.reason-content {
+	text-align: center;
+}
+
+.icon {
+	width: 65px;
+	margin-bottom: 30px;	
+}
+
+.title {
+	font-size: 20px;
+	font-weight: bold;	
+}
+
+.text {
+	font-size: 18px;
+}
+
+.bg__grey {
+	background-color: #f5f5f5;
+}
+
+.text__month {
+	text-align: center;
+	font-size: 2.4rem;
+	margin-top: 0px;
+}
+
+.book__main-title {
+	font-size: 4.8rem;
+	text-align: center;
+	padding-top: 10rem;
+	margin-bottom: 0px;
+
+}
+
+.book__item-left {
+	position: relative;
+    width: 100%;
+}
+
+.book__left {
+	position: absolute;
+    right: 150px;
+    width: 300px;
+    top: 50%;
+}
+
+.book__right {
+	position: absolute;
+    left: 150px;
+    width: 300px;
+    top: 50%;
+}
+
+.denetika {
+	position: relative;
+	right: 10rem;
+}
+
+.matrix {
+	position: relative;
+	left: 10rem;
+}
+
+@media (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}	
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 960px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}
